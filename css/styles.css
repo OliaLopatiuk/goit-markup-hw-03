@@ -216,7 +216,7 @@ img {
   width: 264px;
 }
 
-.list.characteristics {
+.list-characteristics {
   display: flex;
   gap: 24px;
 }
@@ -267,7 +267,6 @@ img {
 
 .employee-card {
   background-color: var(--main-background-color);
-  padding-bottom: 32px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -300,6 +299,7 @@ img {
 .footer .link.logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 
 .footer {
